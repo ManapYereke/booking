@@ -1,0 +1,253 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.header_text_block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 12px 0px;
+  align-items: center;
+  padding: 0% 15% 0px;
+}
+
+.header_link {
+  padding: 0% 15% 0px;
+  font-family: "Montserrat";
+}
+
+.header_text_block_item {
+  display: flex;
+  width: 65%;
+}
+
+.header_text_block_item:nth-child(2) {
+  justify-content: flex-end;
+  width: 35%;
+}
+
+/* .header_text_block_item:nth-child(2) {
+  width: 100%;
+  justify-content: flex-start;
+} */
+
+.header_text {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: left;
+  /* color: #36975a; */
+
+  /* Media query for screens larger than 576px (typical mobile landscape) */
+  @media (min-width: 576px) {
+    font-size: 16px !important;
+    /* Adjust font size for small tablets */
+  }
+
+  /* Media query for screens larger than 768px (typical tablets in portrait) */
+  @media (min-width: 768px) {
+    font-size: 20px !important;
+    /* Adjust font size for larger tablets */
+  }
+
+  /* Media query for screens larger than 912px (Microsoft Surface Pro 7) */
+  @media (min-width: 912px) {
+    font-size: 20px !important;
+    /* Adjust font size for Surface Pro 7 */
+  }
+
+  /* Media query for screens larger than 992px (small desktops and laptops) */
+  @media (min-width: 992px) {
+    font-size: 26px !important;
+    /* Set font size to 30px for MacBook Air M1 and similar screens */
+  }
+
+  /* Media query for screens larger than 1200px (standard desktop screens) */
+  @media (min-width: 1200px) {
+    font-size: 30px !important;
+    /* Adjust font size for standard desktop screens */
+  }
+}
+
+
+.driver_img {
+  display: flex;
+  width: 100%;
+  transition: 0.3s;
+  align-items: flex-end;
+}
+
+.driver_img_hidden {
+  display: none;
+}
+
+
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 36px;
+  /* padding: 0px 15% 0px; */
+}
+
+
+
+@media (max-width: 1420px) {
+
+  .header_text {
+    font-size: 68px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header_text {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .header_text {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header_text {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header_text {
+    font-size: 72px;
+  }
+
+  .header_text_block {
+    flex-direction: column;
+  }
+
+  .header_text_block_item {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+
+
+  .driver_img {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header_text {
+    font-size: 62px;
+    line-height: 60px;
+  }
+
+
+}
+
+
+@media (max-width: 576px) {
+  .header_text {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+
+}
+
+@media (max-width: 475px) {
+  .header_text {
+    font-size: 36px;
+    line-height: 38px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .header_text {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+
+/* Basic styles for the footer */
+.footer-row {
+  width: 100%;
+  background-color: #ffffff;
+  /* replace with your preferred color */
+  margin-bottom: 0;
+}
+
+.footer-row .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 15%;
+}
+
+.header-row-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo2 {
+  height: 65px;
+  /* replace with your preferred size */
+  width: 65px;
+  /* replace with your preferred size */
+}
+
+/* goscorp prav dlya grazhdan text v footere */
+.text {
+  margin-left: 0;
+  /* remove the left margin */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.logo-text-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* adjust this to control the spacing between the logo and the text */
+}
+
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 150px; replace with your preferred size */
+}
+
+.call-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* width: 150px; replace with your preferred size */
+}
+
+.lonely-call {
+  font-size: 2em;
+  color: green;
+}
+
+.call-top-text {
+  font-size: 0.8em;
+}

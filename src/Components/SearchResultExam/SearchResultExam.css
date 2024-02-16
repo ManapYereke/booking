@@ -1,0 +1,18 @@
+.search_result_exam_offset{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 15% 0px;
+    margin: 0 auto;
+}
+
+.text_data{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.icon{
+    height: 180px;
+    width: 180px;
+}

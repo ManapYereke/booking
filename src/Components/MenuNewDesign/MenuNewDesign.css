@@ -1,0 +1,58 @@
+.menu_box{
+    display: flex;
+    width: 100%;
+    padding: 8% 8%;
+    background-color: lightgray;
+    border-radius: 12px;
+    opacity: .8;
+}
+
+
+.menu_box_item{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.menu_box_item > span{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu_box_item:nth-child(2){
+    display: flex;
+    width: 60%;
+}
+
+.iin_input_block{
+    display: flex;
+    flex-direction: column;
+    background-color: #36975a;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 16px;
+    border-radius: 12px;
+    padding: 20px 24px;
+    cursor: pointer;
+}
+
+.iin_input_block > span{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    transition: .3s;
+}

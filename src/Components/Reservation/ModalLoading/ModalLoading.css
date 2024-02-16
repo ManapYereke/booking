@@ -1,0 +1,22 @@
+.modal_loading{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_loading_container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.size_loading_circle{
+    height: 50%;
+    width: 50%;
+}

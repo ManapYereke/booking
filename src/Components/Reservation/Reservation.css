@@ -1,0 +1,150 @@
+.offset_reservation {
+  display: flex;
+  padding: 0px 15% 0px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.link_btn_resev_exam {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #36975a;
+  /* background-color: #1bbf19; */
+  width: 75%;
+  border-radius: 14px;
+  margin: 16px 0px;
+  color: #ffffff;
+  padding: 16px 18px;
+}
+
+.link_btn_resev_exam > p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.link_btn_resev_exam:hover {
+  color: #ffffff;
+  /* -webkit-box-shadow: 3px 3px 1px 0px #3fb169;
+  -moz-box-shadow: 3px 3px 1px 0px #3fb169;
+  box-shadow: 3px 3px 1px 0px #3fb169;
+  font-weight: bold;
+  animation: shake 0.82s  */
+}
+
+.link_btn_resev_exam > img {
+  height: 130px;
+  width: 120px;
+  /* mix-blend-mode: multiply; */
+}
+
+.menu_choise_exam_img {
+  width: 25%;
+  height: 50%;
+}
+
+
+.btn_back{
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_back:hover{
+  color: #36975a;
+}
+
+@media (max-width: 992px) {
+  .link_btn_resev_exam{
+    text-align: center;
+    width: 100%;
+  }
+
+  .link_btn_resev_exam > img{
+    height: 90px;
+    width: 80px;
+    margin-bottom: 8px;
+  }
+
+  .link_btn_resev_exam > p{
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  
+  .offset_reservation{
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .link_btn_resev_exam > p{
+    font-size: 22px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
+
+  .offset_reservation{
+    padding: 0px 5% 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .offset_reservation{
+    height: 60vh;
+    /* align-items: center;
+    justify-content: center; */
+  }
+
+  .link_btn_resev_exam{
+    flex-direction: row;
+  }
+
+  .link_btn_resev_exam > img{
+    height: 80px;
+    width: 80px;
+  }
+
+  .link_btn_resev_exam > p{
+    font-size: 20px;
+    line-height: 18px;
+    margin: 0px;
+  }
+
+}
+
+
+@media (max-width: 414px) {
+  .link_btn_resev_exam > p {
+    font-size: 14px;
+  }
+
+  .offset_reservation{
+    padding: 0px 4% 0px;
+  }
+  
+
+  .link_btn_resev_exam > img{
+    height: 40px;
+    width: 20%;
+  }
+  
+   .link_btn_resev_exam{
+    padding: 14px 12px;
+  }
+  
+}
+
+@media(max-width: 375px){
+  .link_btn_resev_exam{
+    padding: 8px;
+  }
+}
+
+.hide{
+  display: none;
+}

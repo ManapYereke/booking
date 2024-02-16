@@ -1,0 +1,26 @@
+.offset_result_exam{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 15% 0px;
+    margin: 0 auto;
+}
+
+
+.input_res_exam{
+    font-family: "Montserrat";
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.input_res_exam::placeholder{
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+
+
+.input_res_exam::-webkit-outer-spin-button,
+.input_res_exam::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

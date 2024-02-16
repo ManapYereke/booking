@@ -1,0 +1,26 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+a:active{text-decoration: none !important;}
+
+h1{
+  margin: 0;
+}
+
+.ticket_header_text{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 24px;
+}

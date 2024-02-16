@@ -1,0 +1,74 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+  padding: 16px 0px 0px 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+
+.size_title_page{
+  font-size: 68px;
+  line-height: 64px;
+}
+
+.title_page{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  /* color: #36975a; */
+  color: #000;
+  font-size: 32px;
+  line-height: 24px;
+  margin: 16px 0px;
+}
+
+.offset{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 15% 0;
+}
+
+@media (max-width:992px) {
+  .size_title_page{
+    font-size: 60px;
+  }
+}
+
+@media (max-width:768px) {
+  .size_title_page{
+    font-size: 56px;
+  }
+}
+
+@media (max-width:576px) {
+  .size_title_page{
+    font-size: 48px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width:475px) {
+  .size_title_page{
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width:414px) {
+  .size_title_page{
+    font-size: 36px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width:375px) {
+  .size_title_page{
+    font-size: 32px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 15% 0px;
+    width: 100%;
+  }
+  
+  .header_logo_lang {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .lang {
+    display: flex;
+  }
+  
+  .lang_text {
+    font-family: "Montserrat";
+    font-size: 22px;
+    line-height: 18px;
+    margin: 0px 4px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .lang_text:hover {
+    color: #36975a;
+  }
+  
+
+  @media (max-width: 414px) {
+    .logo{
+      height: 60px;
+      width: 60px;
+    }
+
+    .lang_text{
+      font-size: 18px;
+      line-height: 16px;
+    }
+  }
